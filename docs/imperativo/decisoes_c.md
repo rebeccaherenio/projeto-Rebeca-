@@ -29,7 +29,7 @@ fáceis de rastrear.
 O efeito colateral central do programa é a mutação da matriz global dentro
 de `resolver()`. Cada chamada recursiva de `resolver()` depende do estado
 deixado pela chamada anterior (o tabuleiro parcialmente preenchido) e, ao
-retroceder, desfaz sua própria alteração antes de retornar — esse
+retroceder, desfaz sua própria alteração antes de retornar, esse
 "desfazer" (`tabuleiro[linha][coluna] = 0`) é o efeito colateral mais
 importante da solução, pois é ele quem implementa o backtracking. Sem esse
 efeito colateral explícito, tentativas malsucedidas "sujariam" o tabuleiro
