@@ -20,7 +20,7 @@ qual toda a solução imperativa gira.
 
 Nenhuma outra função modifica o tabuleiro: `posicao_segura()`,
 `entrada_valida()` e `imprimir_tabuleiro()` apenas **leem** o estado, nunca
-o alteram — essa separação entre funções que leem e funções que escrevem
+o alteram essa separação entre funções que leem e funções que escrevem
 foi uma escolha deliberada para deixar os efeitos colaterais localizados e
 fáceis de rastrear.
 
